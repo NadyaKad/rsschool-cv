@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {    
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    margin: 0; 
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #5DC8CD;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000000;
+    }
+
+html {
+    scroll-behavior: smooth; 
+     }
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    }
+
+.main-container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+/*header style Navigation*/
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    }
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: color .3s;
+    color: #006064;
+    text-decoration: none;  
+    }
+   /*header style end*/ 
+
+/*Profile photo and block*/
+.profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 30px 35px;
+    background-color: #5DC8CD;
+    
+  }
+
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+.profile-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;  
+    text-transform: uppercase;
+  }
+
+  /*section style*/    
+.section {
+    width: 80%;
+    }
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
+.item {
+    position: relative;
+    padding-left: 30px;
+  }
+
+.skill-list {
+    margin: 0;
+    padding: 0;  
+    list-style: none;
+  }
+
+  .item a {
+    color: #006064;
+    text-decoration: none;  
+    transition: color 0.5s;
+  }
+  .item a:hover {
+    color: #A66F00;
+  }
+.code {
+    background-color: #FFD173;
+    margin: 10px;
+    padding: 5px;
+}
+
+/*section style end*/
+
+/*colomns style*/
+
+.left-column {
+    width: 40%;
+    background-color:#FFD173;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+.right-colomn {
+    width: 50%;
+    background-color:#FF7673;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    float: left; 
+}
+/*footer style*/
+.footer {
+        padding: 20px; 
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto; 
+  }
