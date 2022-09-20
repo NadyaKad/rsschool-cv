@@ -8,7 +8,6 @@
 ----
 ## Summary
 My name is Nadya, I’m a Global Business Development Manager in an international sales department. By using all the information possible I deliver the best results for my projects, clients and company. But throughout my career path in IT sales, I always wanted to dive into the process of web-development from the inside, learn someting new and find new opportunities for my future. Devoted, friendly and always honest in everything I do.
-
 ----
 ## Skills: 
 * business development
@@ -26,7 +25,6 @@ function multiply(a, b){
 return a * b;
 }
   ```
-  
 ## Education:
   - Belarusian State Economic University - bachelors degree, marketing
   - RS School stage#1 in process
