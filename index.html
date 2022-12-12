@@ -3,9 +3,99 @@
 <head>
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Lora:wght@500&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./normalize.css">
     <link rel="stylesheet" href="style.css">
     <title>CV</title>
     </head>
 <body>
-    </body>
+    <header>
+        <div class="wrapper">
+                <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                  <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+              </nav>
+        </div>      
+    </header>
+    <main class="main">
+        <div class="profile-head">
+            <div class="profile wrapper">
+                    <div class="profile-photo-section">
+                        <img src="./assets/photo.jpg" alt="my-photo" class="profile-photo">
+                    </div>
+                    <div class="name-section">
+                        <h1 class="name">Nadya Kadushkina</h1>
+                        <h3 class="position-item">Junior Front-End Developer</h3> 
+                    </div>
+            </div>
+        </div>
+        <div class="wrapper main-information">
+            <div class="column1">
+                <section id="summary">
+                    <h2 class="column1-item">Summary</h2>
+                    <p>My name is Nadya, I'm a Global Business Development Manager in an international sales department for now. By using all the information possible I deliver the best results for my projects, clients and company. But throughout my career path in IT sales, I always wanted to dive into the process of web-development from the inside, learn someting new and find new opportunities for my future. Devoted, friendly and always honest in everything I do.</p>
+                </section>
+                <section id ="skills">
+                    <h2 class="column1-item">Skills</h2>
+                    <ul class="skill-list">
+                        <li>Web-development</li>
+                        <li>Sales</li>
+                    </ul>
+                </section>
+                <section id="contacts">
+                    <h2 class="column1-item">Contacts</h2>
+                    <ul class="skill-list">
+                        <li>Location:  Minsk, Belarus</li>
+                        <li>Github: <a href="https://github.com/NadyaKad" title="Github">NadyaKad</a></li>
+                        <li>Discord: Nadya Kadushkina (@NadyaKad)</li>
+                    </ul>
+                </section>
+            </div>
+            <div class="column2">
+                <section id="education">
+                    <h2 class="column2-item">Education</h2>
+                    <ul class="skill-list">
+                        <li>Belarusian State Economic University</li>
+                        <li>RSS Pre-School</li>
+                    </ul>
+                </section>
+                <section id="languages">
+                    <h2 class="column2-item">Languages</h2>
+                    <ul class="skill-list">
+                        <li>English - B2</li>
+                        <li>Mandarin - HSK 3</li>
+                        <li>Russian</li>
+                    </ul>  
+                </section>
+                <section id="code">
+                    <h2 class="column2-item">Code</h2>
+                    <pre class="code"><code>function multiply(a, b) {
+                        return a * b;
+                        }</code></pre>
+                </section>
+                <section id="projects">
+                    <h2 class="column2-item">Projects</h2>
+                    <ul class="skill-list">
+                    <li><a href="https://rolling-scopes-school.github.io/nadyakad-JSFE2022Q3/online-zoo/" title="Online Zoo">Online Zoo</a></li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="wrapper footer-container">
+            <div class="column1_footer"><a href="https://rs.school/js-stage0/"><img src="./assets/rsschool.svg" alt="logo" class="icon_footer"></a></div>
+            <div class="column2_footer">© 2022 <a href="https://github.com/NadyaKad" class="nav-link">My GitHub</a></div>
+        </div>
+    </footer>
+</body>
 </html>
